@@ -29,11 +29,11 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ### Latest Release: v0.2.2
 
-| Platform | Installer | Individual Formats |
-|----------|-----------|-------------------|
-| **Windows** | [Download Installer (.exe)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-Installer.exe) | [VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-VST3.zip) · [CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-CLAP.zip) |
-| **macOS** | [Download Installer (.pkg)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-Installer.pkg) | [VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-VST3.zip) · [AU](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-AU.zip) · [CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-CLAP.zip) |
-| **Linux** | — | [VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-VST3.zip) · [CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-CLAP.zip) |
+| Platform | Download |
+|----------|----------|
+| **Windows** | [Download Installer (.exe)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-Installer.exe) |
+| **macOS** | [Download Installer (.pkg)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-Installer.pkg) |
+| **Linux** | [Download VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-VST3.zip) |
 
 > Free trial — full functionality with a brief nag screen. Purchase a license at [aeonslight.com](https://www.aeonslight.com) to remove it.
 
