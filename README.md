@@ -46,7 +46,7 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## License
 
-$50 — Lifetime license. No subscriptions, no activation limits.
+$50 — Pay once, keep your license forever.
 
 [Buy Now](https://buy.stripe.com/6oU9AS4KTckCg5UfKZ3cc01)
 
