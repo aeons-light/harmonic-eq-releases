@@ -33,7 +33,7 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 |----------|----------|
 | **Windows** | [Download Installer (.exe)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-Installer.exe) |
 | **macOS** | [Download Installer (.pkg)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-Installer.pkg) |
-| **Linux** | [Download VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-VST3.zip) |
+| **Linux** | [Download VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-VST3.zip) · [Download CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-CLAP.zip) |
 
 > Free trial — full functionality with a brief nag screen. Purchase a license at [aeonslight.com](https://www.aeonslight.com) to remove it.
 
