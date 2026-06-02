@@ -27,13 +27,13 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Download
 
-### Latest Release: v0.2.1
+### Latest Release: v0.2.2
 
-| Platform | VST3 | CLAP | AU |
-|----------|------|------|----|
-| **Windows** | [Download](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-VST3.zip) | [Download](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-CLAP.zip) | — |
-| **macOS** | [Download](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-VST3.zip) | [Download](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-CLAP.zip) | [Download](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-AU.zip) |
-| **Linux** | [Download](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-VST3.zip) | [Download](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-CLAP.zip) | — |
+| Platform | Installer | Individual Formats |
+|----------|-----------|-------------------|
+| **Windows** | [Download Installer (.exe)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-Installer.exe) | [VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-VST3.zip) · [CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Windows-CLAP.zip) |
+| **macOS** | [Download Installer (.pkg)](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-Installer.pkg) | [VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-VST3.zip) · [AU](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-AU.zip) · [CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-macOS-CLAP.zip) |
+| **Linux** | — | [VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-VST3.zip) · [CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-CLAP.zip) |
 
 > Free trial — full functionality with a brief nag screen. Purchase a license at [aeonslight.com](https://www.aeonslight.com) to remove it.
 
