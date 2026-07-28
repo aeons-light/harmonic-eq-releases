@@ -4,7 +4,7 @@
 
 Harmonic EQ automatically detects the fundamental frequency of your audio and positions EQ bands at exact harmonic multiples — shaping individual harmonics in real-time as the pitch changes.
 
-![Harmonic EQ](images/default.jpg)
+![Harmonic EQ](images/harmonic-eq-tracking-no-eq.png)
 
 ## Features
 
@@ -19,11 +19,19 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ### EQ with Harmonic Tracking
 
-![EQ Applied](images/eq-applied.jpg)
+![EQ Applied](images/harmonic-eq-eq-applied.png)
 
 ### Dynamic Mode
 
-![Dynamic EQ](images/dynamic-eq.jpg)
+![Dynamic EQ](images/harmonic-eq-dynamic.png)
+
+### Solo Audition
+
+![Solo](images/harmonic-eq-solo.png)
+
+### Higher Harmonics
+
+![Higher Harmonics](images/harmonic-eq-higher-harmonics.png)
 
 ## Download
 
