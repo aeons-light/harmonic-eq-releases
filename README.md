@@ -8,7 +8,7 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Features
 
-- **Real-Time Pitch Tracking** — YIN-based detection locks EQ bands to the harmonic series instantly
+- **Follows Every Note** — bands lock onto the fundamental and ride the harmonic series in real time
 - **8 Configurable Bands** — assign any harmonic (×2–×16), sub-harmonic, musical interval, or custom multiplier
 - **Dynamic Mode** — per-band threshold gating applies EQ only when harmonics exceed your set level
 - **Live Spectrum Analyzer** — pre/post FFT display with draggable nodes and bell curve visualization
@@ -44,6 +44,36 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 | **Linux** | [Download VST3](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-VST3.zip) · [Download CLAP](https://github.com/aeons-light/harmonic-eq-releases/releases/latest/download/HarmonicEQ-Linux-CLAP.zip) |
 
 > Try it free with full functionality. Purchase a license at [aeonslight.com](https://www.aeonslight.com) to unlock.
+
+## Changelog
+
+### v0.2.9
+**Improved**
+- Pitch readout moved to the header, colour-coded to show tracking state at a glance
+- Sensitivity knob rescaled for finer control in the useful range
+
+Various bug fixes and refinements.
+
+### v0.2.8
+**Improved**
+- The EQ graph now draws one continuous curve with band colours blending together
+
+Various bug fixes and stability improvements. Updating is recommended for anyone using HQ mode.
+
+### v0.2.7
+**Improved**
+- Band nodes stay at their gain setting in Dynamic mode, making them easier to drag
+
+Various bug fixes.
+
+### v0.2.6
+**New**
+- HQ mode adds 8x oversampling for higher quality processing
+- Analyzer status messages for unpitched audio and auto-bypass
+
+Various bug fixes and refinements.
+
+---
 
 ## System Requirements
 
