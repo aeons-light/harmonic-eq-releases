@@ -47,6 +47,10 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v0.2.10
+**Improved**
+- The macOS installer is now signed and notarized by Apple, so it installs without security warnings
+
 ### v0.2.9
 **Improved**
 - Pitch readout moved to the header, colour-coded to show tracking state at a glance
