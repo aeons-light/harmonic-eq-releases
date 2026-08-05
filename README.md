@@ -47,6 +47,10 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v0.2.12
+**Improved**
+- The Windows installer is now signed, so it installs without security warnings
+
 ### v0.2.11
 Various bug fixes and refinements.
 
