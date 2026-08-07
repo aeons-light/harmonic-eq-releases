@@ -47,6 +47,12 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v0.2.13
+**Fixed**
+- Soloing more than one band at a time now works correctly, with each band heard at its own frequency
+- Auto-bypass no longer clicks as it engages or releases, in both standard and HQ modes
+- Following a new note no longer produces a faint click, which was most audible when auditioning a single band with Solo
+
 ### v0.2.12
 **Improved**
 - The Windows installer is now signed, so it installs without security warnings
