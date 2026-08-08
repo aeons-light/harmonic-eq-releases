@@ -47,6 +47,10 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v0.2.14
+**New**
+- An output gain knob, so you can trim the plugin's level by -24 to +12 dB
+
 ### v0.2.13
 **Fixed**
 - Soloing more than one band at a time now works correctly, with each band heard at its own frequency
