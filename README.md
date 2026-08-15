@@ -52,14 +52,10 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 - Six band types - bell, low shelf, high shelf, notch, high pass and low pass - selectable per band
 - Four filter slopes per band, setting dB/octave for high and low pass, and how wide the plateau is for bells, shelves and notches
 - A detector gate, so quiet bleed and room noise can no longer retune the EQ, with the threshold drawn across the analyser and the incoming level shown on the knob
-- Higher harmonic multipliers: x18, x24, x32 and x48
 - Interface scaling at 100%, 125%, 150% and 200%, in the About dialog
 - A level scale down the right-hand side of the analyser, so the spectrum and the gate threshold can be read in dB
 
 **Improved**
-- Presets now store band types and slopes, so loading one restores its whole sound instead of inheriting the types left by the previous preset
-- Preset sensitivity is set per source: 15% for pitched material, which tracks without octave errors, and 30% for drums
-- The sensitivity knob gives the useful part of its range most of its travel, and now reads 0-100%
 - The frequency lock moved into the FREQ knob - click the centre to lock, and it captures the pitch it last detected
 - The window is 95px shorter, with the Q and gain knobs interlocked and each band's frequency shown inside its Q knob
 - Q now responds proportionally to the scroll wheel, at the same rate on the knob and on the analyser node
