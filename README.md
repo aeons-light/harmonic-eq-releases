@@ -9,13 +9,16 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 ## Features
 
 - **Follows Every Note** — bands lock onto the fundamental and ride the harmonic series in real time
-- **8 Configurable Bands** — assign any harmonic (×2–×16), sub-harmonic, musical interval, or custom multiplier
+- **8 Configurable Bands** - any harmonic, sub-harmonic, musical interval or custom multiplier, as a
+  bell, shelf, notch, high pass or low pass, at 6 to 48 dB/oct
 - **Dynamic Mode** — per-band threshold gating applies EQ only when harmonics exceed your set level
 - **Live Spectrum Analyzer** — pre/post FFT display with draggable nodes and bell curve visualization
 - **Solo Audition** — isolate any band to hear exactly what the EQ is doing
 - **Frequency Lock** — manual frequency override for drones, synths, and single-note processing
-- **Sidechain Input** — external pitch detection source
-- **55 Factory Presets** — vocal, guitar, bass, drums, de-harsh, creative, mastering, advanced
+- **Sidechain or MIDI** - take the pitch from another track, or from MIDI notes where detection
+  would struggle: a chord, a noisy mic, heavy distortion
+- **75 Factory Presets** - vocal, guitar, bass, drums, de-harsh, creative, mastering, advanced, plus
+  band layouts that place the bands and leave the sound alone
 
 ### EQ with Harmonic Tracking
 
@@ -46,6 +49,40 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 > Try it free with full functionality. Purchase a license at [aeonslight.com](https://www.aeonslight.com) to unlock.
 
 ## Changelog
+
+### v1.0.0
+**New**
+- MIDI as a pitch source - right-click SC to track notes instead of audio, for material where
+  detection struggles, or for exact placement on a sequenced part
+- An 18 dB/octave slope, between the existing 12 and 24
+- A/B comparison, holding two complete settings with a copy between them
+- Band layout presets - even and odd harmonic sets, major and minor scales - which place the bands
+  without touching the sound
+- The interface picks a size to suit your display on first launch
+- Update notices, when a newer version is out
+
+**Improved**
+- Redrawn interface throughout
+- Q no longer spikes the corner when a band is switched to a shelf or rolloff, and it now works at
+  24 and 48 dB/oct, where it previously did nothing
+- High and low pass nodes can be dragged to set corner resonance
+- A notch is drawn as the break it is, rather than a shallow dip
+- The vertical scale is smooth, so a curve no longer kinks where the resolution changes
+- Clicking anywhere on a band's strip selects it
+
+**Fixed**
+- A filter could diverge to infinity when tracking remodulated its coefficients, reaching the host as
+  a silenced block. It is now caught in the band that causes it, costing one sample
+- The gate's threshold line is gone from the analyser: it read about 23 dB high, because the gate
+  measures broadband peak while the analyser draws per-bin levels. The knob's arc shows it instead
+- A JSON file that was not a preset could load as a nameless one and apply zeroes to everything
+
+### v0.2.17
+**New**
+- A detector gate rolloff of 18 dB/octave
+
+**Fixed**
+- Non-finite samples can no longer reach the host
 
 ### v0.2.15
 **New**
