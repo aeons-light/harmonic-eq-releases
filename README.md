@@ -50,6 +50,14 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v1.0.1
+**Fixed**
+- A momentary dropout while tracking. A filter could run away internally when a new pitch arrived
+  while its state was still settling, and the safeguard that caught it silenced the whole plug-in for
+  one processing block. It is now caught in the band that caused it, costing a single sample from that
+  band alone. Audio was never at risk of anything worse - nothing invalid could reach your DAW - but
+  the cure was more audible than it needed to be.
+
 ### v1.0.0
 **New**
 - MIDI as a pitch source - right-click SC to track notes instead of audio, for material where
