@@ -50,6 +50,16 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v1.0.2
+**Improved**
+- A band boosts as far as it cuts, to +36 dB. It stopped at +12, which also meant MIX above 100% did
+  little to a large boost, since the doubled value was clipped back
+- The analyser grows its scale to suit: +12 as before, stretching to +24 or +36 when a band goes that
+  far, animated, with 0 dB moving toward the middle as the two halves even up
+
+**Fixed**
+- Dragging a node was capped at +12 dB even once the scale had grown
+
 ### v1.0.1
 **Fixed**
 - A momentary dropout while tracking. A filter could run away internally when a new pitch arrived
