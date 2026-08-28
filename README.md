@@ -50,6 +50,11 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v1.0.4 (2026-08-28)
+
+**Improved**
+- Band gain readouts show the applied value when 200% mode scales it.
+
 ### v1.0.3
 **New**
 - Auto gain: right-click the OUT knob for loudness compensation that never pumps
