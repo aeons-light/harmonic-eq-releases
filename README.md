@@ -50,6 +50,24 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v1.0.3
+**New**
+- Auto gain, on the OUT knob's right-click menu: compensates for the loudness the EQ adds,
+  computed from the settings alone so it can never pump. The knob glows while it works and its
+  ring shows the reduction
+- A soft clipper, same menu, off by default: rounds off peaks that would exceed full scale, exact
+  below -3 dBFS, anti-aliased without adding latency. A hairline marks the ceiling while it is
+  armed, and overage shows on the level axis in red - dim if unprotected, bright while being caught
+- 200% mode: MIX stays a plain dry/wet blend unless unlocked from its right-click menu, where
+  companions can arm the protections to switch on at the first clip
+- Select a band and step it through the harmonics and intervals with + and -
+
+**Improved**
+- Band headers name every interval and octave variant, and the settings menu ticks the current value
+
+**Fixed**
+- The slope menu listed Standard twice on bells, shelves and notches
+
 ### v1.0.2
 **Improved**
 - A band boosts as far as it cuts, to +36 dB. It stopped at +12, which also meant MIX above 100% did
