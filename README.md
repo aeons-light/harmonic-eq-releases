@@ -50,6 +50,18 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 
 ## Changelog
 
+### v1.0.5 (2026-08-30)
+
+**Added**
+- SCALE knob: sizes the whole EQ from 50% to 200%, replacing 200% mode; old sessions migrate automatically.
+- HQ and sidechain share one split button, and the settings gear glows when an update is available.
+
+**Improved**
+- Auto gain now hears bass, so the boosts most likely to clip draw real compensation.
+
+**Fixed**
+- At 0% MIX the output is now the bit-exact input; output gain and auto gain shape only the processed signal.
+
 ### v1.0.4 (2026-08-28)
 
 **Improved**
