@@ -57,7 +57,7 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 - HQ and sidechain share one split button, and the settings gear glows when an update is available.
 
 **Improved**
-- Auto gain now hears bass, so the boosts most likely to clip draw real compensation.
+- The auto gain algorithm has been further fine-tuned and improved.
 
 **Fixed**
 - At 0% MIX the output is now the bit-exact input; output gain and auto gain shape only the processed signal.
