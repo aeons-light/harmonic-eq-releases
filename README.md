@@ -17,7 +17,7 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 - **Frequency Lock** — manual frequency override for drones, synths, and single-note processing
 - **Sidechain or MIDI** - take the pitch from another track, or from MIDI notes where detection
   would struggle: a chord, a noisy mic, heavy distortion
-- **75 Factory Presets** - vocal, guitar, bass, drums, de-harsh, creative, mastering, advanced, plus
+- **79 Factory Presets** - vocal, guitar, bass, drums, de-harsh, creative, mastering, advanced, plus
   band layouts that place the bands and leave the sound alone
 
 ### EQ with Harmonic Tracking
@@ -49,6 +49,24 @@ Harmonic EQ automatically detects the fundamental frequency of your audio and po
 > Try it free with full functionality. Purchase a license at [aeonslight.com](https://www.aeonslight.com) to unlock.
 
 ## Changelog
+
+### v1.0.6 (2026-08-31)
+
+**Added**
+- Right-click any knob to type an exact value.
+- ×64 in the harmonic menu, and custom multipliers up to ×256.
+- Four extreme Creative presets that arm auto gain on load.
+- Vocal Presence now comes in Male and Female voicings.
+
+**Improved**
+- Thirty presets re-spread so air, grit, sibilance and pick-attack bands sit where their names say.
+- Preset cycling follows the menu's category order.
+- Auto-enable fires once and unchecks itself; the clipper's is now off by default.
+
+**Fixed**
+- Vocal Telephone is now a true tracked bandpass.
+
+Note: the wider multiplier range remaps any existing multiplier automation lanes; saved sessions and presets are unaffected.
 
 ### v1.0.5 (2026-08-30)
 
